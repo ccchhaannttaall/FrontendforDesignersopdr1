@@ -1,0 +1,27 @@
+/* CSS Document */
+
+/* FONTS */
+@font-face {
+	font-family: 'eenfont';
+	src: url('../fonts/eenfont.woff2') format('woff2'),
+			 url('../fonts/eenfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+/* ALGEMENE STYLING */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body {
+  font-family:eenfont, sans-serif;
+  color:#111;
+  background-color:#eee;
+}
+
+
+/* BRAND STYLING */
+
